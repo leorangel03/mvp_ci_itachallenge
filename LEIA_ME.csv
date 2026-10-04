@@ -1,0 +1,17 @@
+CADERNO INTELIGENTE — BASE FICTÍCIA FINAL | Orientações de uso,Unnamed: 1
+,
+Item,Definição
+Natureza da base,"Todos os nomes, preços, valores, regiões, volumes, estoques, capacidades e resultados são fictícios e foram criados exclusivamente para o ITA Challenge Sprint."
+Data de referência,Setembro de 2026. Os históricos realizados terminam em agosto de 2026; pedidos e ordens representam a posição de setembro; o forecast cobre outubro a dezembro de 2026.
+Vendas_24m,"Histórico de unidades faturadas e faturamento por parceiro/canal. Para parceiros B2B, o faturamento pode ocorrer em período diferente da expedição física."
+Sell_In,Quantidade efetivamente enviada/expedida aos parceiros para os recortes em que esse detalhamento está disponível.
+Sell_Out,"Venda do parceiro ao consumidor final. A cobertura é parcial: cinco parceiros e dez SKUs por parceiro. A ausência de registro significa dado não disponível, não venda zero."
+Canais diretos,"E-commerce, Marketplace e Loja própria representam venda direta. A base contém comportamento de vendas agregado por mês, sem identificação do consumidor final."
+Dados observados,"Vendas faturadas, sell-in, sell-out e estoque foram estruturados como dados observados fictícios dentro do cenário."
+Dados estimados,"Estoque estimado do parceiro, cobertura e alguns indicadores são estimativas calculadas ou simuladas."
+Dados previstos,Forecast comercial e datas futuras representam previsões ou planejamento fictício.
+Produtos repetidos,Produtos com nomes semelhantes foram diferenciados pela coluna Coleção/Versão e pela Descrição completa. O SKU continua sendo a chave única.
+Região e parceiro,"A aba Parceiros_Canais permite análises por região, UF, tipo, porte e cobertura de sell-out."
+Faturamento,O valor faturado é calculado com base na tabela fictícia Precos_Produtos e não representa valores reais da empresa.
+Capacidade semanal,Compromissos base representam ocupações não detalhadas; ordens planejadas correspondem às OPs fornecidas; a capacidade disponível apoia a avaliação de viabilidade operacional.
+Uso esperado,"A solução deve mostrar claramente o que é observado, estimado e previsto, incluindo limitações de informação em cada recomendação."

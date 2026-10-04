@@ -1,0 +1,105 @@
+CADERNO INTELIGENTE — DADOS FICTÍCIOS | Dicionário de dados,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5,Unnamed: 6
+,,,,,,
+Aba,Campo,Tipo,Definição,Origem fictícia,Periodicidade,Sensível?
+Produtos,SKU,Texto,Identificador único do produto.,ERP/PCP,Diária/Mensal,Não
+Produtos,Produto,Texto,Nome comercial resumido do produto.,ERP/PCP,Diária/Mensal,Não
+Produtos,Família,Texto,Grupo produtivo/comercial do produto.,ERP/PCP,Diária/Mensal,Não
+Produtos,Curva ABC,Texto,Classificação fictícia de relevância do SKU.,ERP/PCP,Diária/Mensal,Não
+Produtos,Status,Texto,Situação atual do produto.,ERP/PCP,Diária/Mensal,Não
+Produtos,Lead time (dias),Número,Dias entre liberação e disponibilidade.,ERP/PCP,Diária/Mensal,Não
+Produtos,Lote mínimo,Número,Menor quantidade operacional de produção.,ERP/PCP,Diária/Mensal,Não
+Produtos,Estoque segurança (dias),Número,Cobertura mínima desejada.,ERP/PCP,Diária/Mensal,Não
+Produtos,Estoque atual,Número,Saldo disponível no centro de distribuição.,ERP/PCP,Diária/Mensal,Não
+Produtos,Cobertura (dias),Número,Dias estimados de estoque pelo consumo médio.,ERP/PCP,Diária/Mensal,Não
+Produtos,Venda média/dia,Número,Média fictícia diária de unidades.,ERP/PCP,Diária/Mensal,Não
+Produtos,Coleção/Versão,Texto,Linha fictícia que diferencia produtos com nomes semelhantes.,ERP/PCP,Diária/Mensal,Não
+Produtos,Descrição completa,Texto,Nome do produto combinado com a coleção/versão.,ERP/PCP,Diária/Mensal,Não
+Vendas_24m,Mês,Texto,Período mensal de referência.,ERP/Faturamento,Mensal,Não
+Vendas_24m,SKU,Texto,Identificador único do produto.,ERP/Faturamento,Mensal,Não
+Vendas_24m,Cliente/Canal,Texto,Parceiro B2B ou canal direto associado ao registro.,ERP/Faturamento,Mensal,Não
+Vendas_24m,Quantidade faturada,Número,"Unidades faturadas no período; para parceiros, representa a venda comercial registrada, não necessariamente a expedição do mesmo mês.",ERP/Faturamento,Mensal,Não
+Vendas_24m,Preço unitário (R$),Decimal,Preço médio unitário fictício aplicado ao registro.,ERP/Faturamento,Mensal,Não
+Vendas_24m,Valor faturado (R$),Decimal,Quantidade faturada multiplicada pelo preço unitário.,ERP/Faturamento,Mensal,Não
+Historico_Estoque,Mês,Texto,Período mensal de referência.,ERP,Mensal,Não
+Historico_Estoque,SKU,Texto,Identificador único do produto.,ERP,Mensal,Não
+Historico_Estoque,Estoque fechamento,Número,Saldo de estoque no encerramento do mês.,ERP,Mensal,Não
+Historico_Estoque,Cobertura estimada dias,Número,Cobertura calculada com base no consumo médio.,ERP,Mensal,Não
+Estoque_Atual,SKU,Texto,Identificador único do produto.,ERP,Diária,Não
+Estoque_Atual,Estoque atual,Número,Saldo disponível no centro de distribuição.,ERP,Diária,Não
+Estoque_Atual,Cobertura dias,Número,Dias estimados de estoque disponível.,ERP,Diária,Não
+Estoque_Atual,Estoque segurança dias,Número,Cobertura mínima desejada.,ERP,Diária,Não
+Estoque_Atual,Demanda média mensal,Número,Média fictícia de demanda em unidades por mês.,ERP,Diária,Não
+Estoque_Atual,Local,Texto,Local de armazenagem.,ERP,Diária,Não
+Carteira_Pedidos,Pedido,Texto,Identificador do pedido confirmado.,ERP,Diária,Não
+Carteira_Pedidos,SKU,Texto,Identificador único do produto.,ERP,Diária,Não
+Carteira_Pedidos,Cliente/Canal,Texto,Parceiro B2B ou canal direto associado ao registro.,ERP,Diária,Não
+Carteira_Pedidos,Quantidade,Número,Quantidade de unidades do registro.,ERP,Diária,Não
+Carteira_Pedidos,Data prometida,Data,Data prevista para atendimento ao cliente.,ERP,Diária,Não
+Carteira_Pedidos,Status,Texto,Situação atual do produto.,ERP,Diária,Não
+Ordens_Producao,Ordem,Texto,Identificador da ordem de produção.,PCP,Diária,Não
+Ordens_Producao,SKU,Texto,Identificador único do produto.,PCP,Diária,Não
+Ordens_Producao,Quantidade,Número,Quantidade de unidades do registro.,PCP,Diária,Não
+Ordens_Producao,Início previsto,Data,Data planejada para início da ordem.,PCP,Diária,Não
+Ordens_Producao,Conclusão prevista,Texto,Data planejada para conclusão da ordem.,PCP,Diária,Não
+Ordens_Producao,Status,Texto,Situação atual do produto.,PCP,Diária,Não
+Capacidade_Producao,Linha,Texto,Linha produtiva responsável pela família.,PCP,Semanal,Não
+Capacidade_Producao,Família,Texto,Grupo produtivo/comercial do produto.,PCP,Semanal,Não
+Capacidade_Producao,Capacidade máxima,Número,Quantidade máxima de unidades no período.,PCP,Semanal,Não
+Capacidade_Producao,Período,Texto,Unidade de tempo da capacidade.,PCP,Semanal,Não
+Capacidade_Producao,Ocupação fictícia,Decimal,Percentual fictício comprometido da linha.,PCP,Semanal,Não
+Lead_Times,SKU,Texto,Identificador único do produto.,PCP/ERP,Mensal,Não
+Lead_Times,Família,Texto,Grupo produtivo/comercial do produto.,PCP/ERP,Mensal,Não
+Lead_Times,Lead time dias,Número,Dias entre liberação e disponibilidade.,PCP/ERP,Mensal,Não
+Lead_Times,Lote mínimo,Número,Menor quantidade operacional de produção.,PCP/ERP,Mensal,Não
+Lead_Times,Origem,Texto,Origem predominante do fornecimento/produção.,PCP/ERP,Mensal,Não
+Sell_In,Mês,Texto,Período mensal de referência.,ERP/Logística,Mensal,Não
+Sell_In,Cliente,Texto,Código do parceiro com informação disponível.,ERP/Logística,Mensal,Não
+Sell_In,SKU,Texto,Identificador único do produto.,ERP/Logística,Mensal,Não
+Sell_In,Quantidade enviada,Número,Unidades efetivamente expedidas ao parceiro no mês; pode diferir do faturamento por corte e data de expedição.,ERP/Logística,Mensal,Não
+Sell_Out,Mês,Texto,Período mensal de referência.,Parceiro,Mensal,Não
+Sell_Out,Cliente,Texto,Código do parceiro com informação disponível.,Parceiro,Mensal,Não
+Sell_Out,SKU,Texto,Identificador único do produto.,Parceiro,Mensal,Não
+Sell_Out,Quantidade vendida,Número,Unidades vendidas pelo parceiro ao consumidor final.,Parceiro,Mensal,Não
+Sell_Out,Estoque estimado cliente,Número,Saldo estimado informado/calculado no parceiro.,Parceiro,Mensal,Não
+Sell_Out,Natureza do dado,Texto,"Classifica o registro como observado, estimado ou previsto.",Parceiro,Mensal,Não
+Forecast_Comercial,SKU,Texto,Identificador único do produto.,S&OP,Mensal,Não
+Forecast_Comercial,Mês,Texto,Período mensal de referência.,S&OP,Mensal,Não
+Forecast_Comercial,Previsão unidades,Texto,Forecast comercial de unidades para o mês futuro.,S&OP,Mensal,Não
+Forecast_Comercial,Origem previsão,Texto,Processo fictício que originou o forecast.,S&OP,Mensal,Não
+Calendario_Eventos,Evento,Texto,Evento ou campanha relevante para a demanda.,Marketing/Comercial,Por evento,Não
+Calendario_Eventos,Início,Data,Data inicial do evento.,Marketing/Comercial,Por evento,Não
+Calendario_Eventos,Fim,Data,Data final do evento.,Marketing/Comercial,Por evento,Não
+Calendario_Eventos,Famílias impactadas,Texto,Famílias com possível impacto do evento.,Marketing/Comercial,Por evento,Não
+Calendario_Eventos,Impacto esperado,Texto,Intensidade qualitativa esperada.,Marketing/Comercial,Por evento,Não
+Calendario_Eventos,Observação,Texto,Contexto complementar do registro.,Marketing/Comercial,Por evento,Não
+Indicadores_Atuais,Indicador,Texto,Nome do indicador operacional.,Áreas responsáveis,Conforme indicador,Não
+Indicadores_Atuais,Valor fictício atual,Decimal,Resultado atual simulado.,Áreas responsáveis,Conforme indicador,Não
+Indicadores_Atuais,Meta fictícia,Texto,Referência simulada de desempenho.,Áreas responsáveis,Conforme indicador,Não
+Indicadores_Atuais,Frequência,Texto,Periodicidade de acompanhamento.,Áreas responsáveis,Conforme indicador,Não
+Indicadores_Atuais,Responsável,Texto,Área fictícia responsável.,Áreas responsáveis,Conforme indicador,Não
+Parceiros_Canais,Código,Texto,Identificador do parceiro ou canal.,CRM fictício,Mensal,Não
+Parceiros_Canais,Nome fictício,Texto,Nome criado exclusivamente para o desafio.,CRM fictício,Mensal,Não
+Parceiros_Canais,Tipo,Texto,Classificação do parceiro/canal ou tipo do campo.,CRM fictício,Mensal,Não
+Parceiros_Canais,Região,Texto,Região geográfica de atuação.,CRM fictício,Mensal,Não
+Parceiros_Canais,UF,Texto,Unidade federativa.,CRM fictício,Mensal,Não
+Parceiros_Canais,Cidade,Texto,Cidade principal de referência.,CRM fictício,Mensal,Não
+Parceiros_Canais,Canal principal,Texto,Modelo predominante de atendimento/venda.,CRM fictício,Mensal,Não
+Parceiros_Canais,Porte,Texto,Porte comercial fictício.,CRM fictício,Mensal,Não
+Parceiros_Canais,Status,Texto,Situação atual do produto.,CRM fictício,Mensal,Não
+Parceiros_Canais,Última compra/venda,Data,Data mais recente do relacionamento comercial na base.,CRM fictício,Mensal,Não
+Parceiros_Canais,Cobertura de sell-out,Decimal,Nível de visibilidade disponível sobre vendas ao consumidor.,CRM fictício,Mensal,Não
+Parceiros_Canais,SKUs com sell-out,Número,Quantidade de SKUs com sell-out disponível.,CRM fictício,Mensal,Não
+Precos_Produtos,SKU,Texto,Identificador único do produto.,ERP/Comercial,Por vigência,Não
+Precos_Produtos,Descrição completa,Texto,Nome do produto combinado com a coleção/versão.,ERP/Comercial,Por vigência,Não
+Precos_Produtos,Família,Texto,Grupo produtivo/comercial do produto.,ERP/Comercial,Por vigência,Não
+Precos_Produtos,Preço unitário (R$),Decimal,Preço médio unitário fictício aplicado ao registro.,ERP/Comercial,Por vigência,Não
+Precos_Produtos,Vigência fictícia,Data,Data inicial de validade do preço simulado.,ERP/Comercial,Por vigência,Não
+Capacidade_Semanal,Semana inicial,Data,Primeiro dia da semana de capacidade.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Linha,Texto,Linha produtiva responsável pela família.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Família,Texto,Grupo produtivo/comercial do produto.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Capacidade máxima,Número,Quantidade máxima de unidades no período.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Compromissos base,Texto,Capacidade comprometida com atividades não detalhadas nas ordens fornecidas.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Ordens planejadas,Texto,Unidades das ordens com início previsto na semana.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Capacidade comprometida,Número,Soma dos compromissos base e ordens planejadas.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Capacidade disponível,Número,Capacidade máxima menos capacidade comprometida.,PCP fictício,Semanal,Não
+Capacidade_Semanal,Ocupação,Decimal,Capacidade comprometida dividida pela capacidade máxima.,PCP fictício,Semanal,Não
