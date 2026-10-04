@@ -1,0 +1,21 @@
+# GitIgnore
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+.DS_Store
+*.log
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Dados locais e temporários
+/data/raw/*.tmp
+/data/processed/*.tmp
