@@ -381,7 +381,7 @@ Este projeto foi desenvolvido como protótipo de pesquisa e educação.
 ## 👤 Autor
 
 **Desenvolvido como MVP**  
-Tech Lead: Data Science + IA  
+Tech Lead: Leonardo Rangel 
 Data: Outubro de 2026
 
 ---
