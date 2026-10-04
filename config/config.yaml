@@ -1,0 +1,44 @@
+# Configuração do MVP Caderno Inteligente
+
+project:
+  name: "caderno_inteligente"
+  environment: "local"
+
+paths:
+  root: "."
+  data_raw: "data/raw"
+  data_processed: "data/processed"
+  docs: "docs"
+  src: "src"
+
+raw_files:
+  preferred_sources:
+    - "data/raw"
+    - "."
+
+pipeline:
+  encoding: "utf-8"
+  na_values:
+    - ""
+    - "NA"
+    - "N/A"
+    - "nan"
+    - "null"
+    - "-"
+    - "—"
+  date_columns:
+    - "mes"
+    - "data_prometida"
+    - "inicio_previsto"
+    - "conclusao_prevista"
+    - "semana_inicial"
+    - "ultima_compra_venda"
+    - "vigencia_ficticia"
+    - "inicio"
+    - "fim"
+
+rules:
+  preserve_raw_files: true
+  normalize_columns: true
+  remove_duplicate_rows: true
+  parse_dates: true
