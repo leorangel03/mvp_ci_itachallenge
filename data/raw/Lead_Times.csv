@@ -1,0 +1,53 @@
+CADERNO INTELIGENTE — DADOS FICTÍCIOS | Lead_Times,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+SKU,Família,Lead time dias,Lote mínimo,Origem
+CI-0001,Clássico,14,300,Misto
+CI-0002,Clássico,15,300,Misto
+CI-0003,Clássico,16,300,Fornecedor nacional
+CI-0004,Planner,21,200,Produção interna
+CI-0005,Refis,11,500,Fornecedor nacional
+CI-0006,Refis,12,500,Produção interna
+CI-0007,Acessórios,12,300,Misto
+CI-0008,Acessórios,13,300,Misto
+CI-0009,Acessórios,14,300,Fornecedor nacional
+CI-0010,Acessórios,12,300,Fornecedor nacional
+CI-0011,Clássico,15,300,Fornecedor nacional
+CI-0012,Clássico,16,300,Produção interna
+CI-0013,Refis,10,500,Fornecedor nacional
+CI-0014,Escolar,21,400,Produção interna
+CI-0015,Executivo,27,200,Misto
+CI-0016,Escolar,20,400,Fornecedor nacional
+CI-0017,Planner,22,200,Fornecedor nacional
+CI-0018,Refis,12,500,Misto
+CI-0019,Acessórios,12,300,Misto
+CI-0020,Acessórios,13,300,Fornecedor nacional
+CI-0021,Clássico,16,300,Fornecedor nacional
+CI-0022,Executivo,25,200,Produção interna
+CI-0023,Refis,11,500,Produção interna
+CI-0024,Acessórios,14,300,Produção interna
+CI-0025,Escolar,20,400,Fornecedor nacional
+CI-0026,Clássico,15,300,Misto
+CI-0027,Clássico,16,300,Fornecedor nacional
+CI-0028,Clássico,14,300,Produção interna
+CI-0029,Planner,22,200,Misto
+CI-0030,Refis,12,500,Misto
+CI-0031,Refis,10,500,Misto
+CI-0032,Acessórios,13,300,Produção interna
+CI-0033,Acessórios,14,300,Produção interna
+CI-0034,Acessórios,12,300,Misto
+CI-0035,Acessórios,13,300,Fornecedor nacional
+CI-0036,Clássico,16,300,Misto
+CI-0037,Clássico,14,300,Produção interna
+CI-0038,Refis,11,500,Misto
+CI-0039,Escolar,22,400,Misto
+CI-0040,Executivo,25,200,Produção interna
+CI-0041,Escolar,21,400,Fornecedor nacional
+CI-0042,Planner,23,200,Produção interna
+CI-0043,Refis,10,500,Fornecedor nacional
+CI-0044,Acessórios,13,300,Fornecedor nacional
+CI-0045,Acessórios,14,300,Misto
+CI-0046,Clássico,14,300,Misto
+CI-0047,Executivo,26,200,Produção interna
+CI-0048,Refis,12,500,Produção interna
+CI-0049,Acessórios,12,300,Fornecedor nacional
+CI-0050,Escolar,21,400,Misto

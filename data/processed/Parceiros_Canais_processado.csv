@@ -1,0 +1,11 @@
+caderno_inteligente_—_dados_fictícios_|_parceiros_e_canais,unnamed:_1,unnamed:_2,unnamed:_3,unnamed:_4,unnamed:_5,unnamed:_6,unnamed:_7,unnamed:_8,unnamed:_9,unnamed:_10,unnamed:_11
+,,,,,,,,,,,
+Código,Nome fictício,Tipo,Região,UF,Cidade,Canal principal,Porte,Status,Última compra/venda,Cobertura de sell-out,
+KA-01,Papelaria Horizonte,Parceiro varejista,Sudeste,SP,São Paulo,Lojas físicas e online,Grande,Ativo,2026-08-28 00:00:00,Parcial,10.0
+KA-02,Rede Ponto Criativo,Parceiro varejista,Sul,PR,Curitiba,Lojas físicas,Médio,Ativo,2026-08-26 00:00:00,Parcial,10.0
+KA-03,Mundo do Papel,Distribuidor,Sudeste,MG,Belo Horizonte,Distribuição regional,Grande,Ativo,2026-08-30 00:00:00,Parcial,10.0
+KA-04,Estação Escolar,Parceiro varejista,Nordeste,PE,Recife,Lojas físicas e online,Médio,Ativo,2026-08-24 00:00:00,Parcial,10.0
+KA-05,Casa das Ideias,Distribuidor,Centro-Oeste,DF,Brasília,Distribuição regional,Médio,Ativo,2026-08-29 00:00:00,Parcial,10.0
+E-commerce,E-commerce próprio,Canal direto,Nacional,,Online,Venda direta,,Ativo,2026-08-31 00:00:00,Completo,50.0
+Marketplace,Marketplace,Canal direto,Nacional,,Online,Venda direta,,Ativo,2026-08-31 00:00:00,Completo,50.0
+Loja própria,Loja própria,Canal direto,Sudeste,SP,São Paulo,Venda direta,,Ativo,2026-08-31 00:00:00,Completo,50.0

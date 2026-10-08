@@ -1,0 +1,56 @@
+CADERNO INTELIGENTE — DADOS FICTÍCIOS | Carteira_Pedidos,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4,Unnamed: 5
+,,,,,
+Pedido,SKU,Cliente/Canal,Quantidade,Data prometida,Status
+PED-002-1,CI-0002,KA-03,331,20/09/2026,Confirmado
+PED-003-1,CI-0003,KA-05,192,02/10/2026,Confirmado
+PED-004-1,CI-0004,KA-05,487,28/09/2026,Confirmado
+PED-004-2,CI-0004,KA-02,379,14/09/2026,Confirmado
+PED-005-1,CI-0005,KA-04,691,18/09/2026,Confirmado
+PED-005-2,CI-0005,Marketplace,689,18/09/2026,Confirmado
+PED-007-1,CI-0007,Loja própria,592,26/09/2026,Confirmado
+PED-009-1,CI-0009,E-commerce,297,01/10/2026,Confirmado
+PED-011-1,CI-0011,KA-01,620,14/09/2026,Confirmado
+PED-011-2,CI-0011,KA-02,504,24/09/2026,Confirmado
+PED-012-1,CI-0012,KA-01,663,02/10/2026,Confirmado
+PED-013-1,CI-0013,KA-04,221,29/09/2026,Confirmado
+PED-014-1,CI-0014,KA-02,665,29/09/2026,Confirmado
+PED-014-2,CI-0014,KA-02,662,03/10/2026,Confirmado
+PED-015-1,CI-0015,Marketplace,151,02/10/2026,Confirmado
+PED-016-1,CI-0016,Marketplace,255,24/09/2026,Confirmado
+PED-017-1,CI-0017,KA-05,352,16/09/2026,Confirmado
+PED-018-1,CI-0018,E-commerce,501,18/09/2026,Confirmado
+PED-018-2,CI-0018,E-commerce,420,06/10/2026,Confirmado
+PED-019-1,CI-0019,KA-04,611,16/09/2026,Confirmado
+PED-020-1,CI-0020,Loja própria,680,17/09/2026,Confirmado
+PED-021-1,CI-0021,KA-01,326,28/09/2026,Confirmado
+PED-022-1,CI-0022,KA-05,496,22/09/2026,Confirmado
+PED-023-1,CI-0023,E-commerce,251,04/10/2026,Confirmado
+PED-023-2,CI-0023,KA-05,127,03/10/2026,Confirmado
+PED-025-1,CI-0025,Marketplace,157,16/09/2026,Confirmado
+PED-025-2,CI-0025,Marketplace,542,27/09/2026,Confirmado
+PED-027-1,CI-0027,KA-05,497,16/09/2026,Confirmado
+PED-027-2,CI-0027,KA-01,487,13/09/2026,Confirmado
+PED-029-1,CI-0029,KA-03,243,29/09/2026,Confirmado
+PED-030-1,CI-0030,Loja própria,129,29/09/2026,Confirmado
+PED-032-1,CI-0032,Loja própria,638,01/10/2026,Confirmado
+PED-033-1,CI-0033,Marketplace,142,03/10/2026,Confirmado
+PED-033-2,CI-0033,Marketplace,587,28/09/2026,Confirmado
+PED-034-1,CI-0034,Loja própria,650,04/10/2026,Confirmado
+PED-035-1,CI-0035,KA-02,619,26/09/2026,Confirmado
+PED-036-1,CI-0036,KA-02,568,29/09/2026,Confirmado
+PED-036-2,CI-0036,E-commerce,651,02/10/2026,Confirmado
+PED-037-1,CI-0037,Marketplace,248,27/09/2026,Confirmado
+PED-038-1,CI-0038,KA-02,682,23/09/2026,Confirmado
+PED-040-1,CI-0040,Loja própria,666,21/09/2026,Confirmado
+PED-041-1,CI-0041,KA-05,512,13/09/2026,Confirmado
+PED-041-2,CI-0041,KA-02,534,14/09/2026,Confirmado
+PED-042-1,CI-0042,KA-04,244,16/09/2026,Confirmado
+PED-043-1,CI-0043,E-commerce,214,15/09/2026,Confirmado
+PED-045-1,CI-0045,Loja própria,319,29/09/2026,Confirmado
+PED-046-1,CI-0046,KA-04,272,23/09/2026,Confirmado
+PED-046-2,CI-0046,Marketplace,272,26/09/2026,Confirmado
+PED-047-1,CI-0047,E-commerce,130,05/10/2026,Confirmado
+PED-048-1,CI-0048,Loja própria,404,30/09/2026,Confirmado
+PED-049-1,CI-0049,KA-01,462,16/09/2026,Confirmado
+PED-049-2,CI-0049,KA-02,152,13/09/2026,Confirmado
+PED-050-1,CI-0050,Loja própria,85,29/09/2026,Confirmado

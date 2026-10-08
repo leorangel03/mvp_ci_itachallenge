@@ -1,0 +1,53 @@
+caderno_inteligente_—_dados_fictícios_|_produtos,unnamed:_1,unnamed:_2,unnamed:_3,unnamed:_4,unnamed:_5,unnamed:_6,unnamed:_7,unnamed:_8,unnamed:_9,unnamed:_10,unnamed:_11,unnamed:_12
+,,,,,,,,,,,,
+SKU,Produto,Família,Curva ABC,Status,,,,,,,Coleção/Versão,Descrição completa
+CI-0001,Caderno A5 Azul,Clássico,A,Ativo,14.0,300.0,7.0,90.0,18.0,5.0,Linha Essencial,Caderno A5 Azul - Linha Essencial
+CI-0002,Caderno A5 Rosa,Clássico,A,Ativo,15.0,300.0,10.0,40.0,6.0,67.0,Linha Essencial,Caderno A5 Rosa - Linha Essencial
+CI-0003,Caderno Grande Preto,Clássico,A,Ativo,16.0,300.0,13.0,462.0,55.0,84.0,Linha Essencial,Caderno Grande Preto - Linha Essencial
+CI-0004,Planner Semanal,Planner,A,Ativo,21.0,200.0,16.0,303.0,30.0,101.0,Linha Essencial,Planner Semanal - Linha Essencial
+CI-0005,Refil A5 Pautado,Refis,A,Ativo,11.0,500.0,19.0,649.0,55.0,118.0,Linha Essencial,Refil A5 Pautado - Linha Essencial
+CI-0006,Refil A5 Pontilhado,Refis,A,Ativo,12.0,500.0,7.0,135.0,10.0,135.0,Linha Essencial,Refil A5 Pontilhado - Linha Essencial
+CI-0007,Disco M Rosa,Acessórios,A,Ativo,12.0,300.0,10.0,456.0,30.0,152.0,Linha Essencial,Disco M Rosa - Linha Essencial
+CI-0008,Disco G Preto,Acessórios,A,Ativo,13.0,300.0,13.0,304.0,18.0,169.0,Linha Essencial,Disco G Preto - Linha Essencial
+CI-0009,Capa Transparente A5,Acessórios,A,Ativo,14.0,300.0,16.0,1023.0,55.0,186.0,Linha Essencial,Capa Transparente A5 - Linha Essencial
+CI-0010,Estojo Inteligente,Acessórios,A,Ativo,12.0,300.0,19.0,121.0,6.0,203.0,Linha Essencial,Estojo Inteligente - Linha Essencial
+CI-0011,Caderno A5 Verde,Clássico,A,Ativo,15.0,300.0,7.0,660.0,30.0,22.0,Linha Essencial,Caderno A5 Verde - Linha Essencial
+CI-0012,Caderno Grande Azul,Clássico,A,Ativo,16.0,300.0,10.0,711.0,30.0,237.0,Linha Essencial,Caderno Grande Azul - Linha Essencial
+CI-0013,Refil Planner,Refis,A,Ativo,10.0,500.0,13.0,1397.0,55.0,254.0,Linha Essencial,Refil Planner - Linha Essencial
+CI-0014,Caderno Escolar,Escolar,A,Ativo,21.0,400.0,16.0,1490.0,55.0,271.0,Linha Essencial,Caderno Escolar - Linha Essencial
+CI-0015,Caderno Executivo,Executivo,A,Ativo,27.0,200.0,19.0,288.0,10.0,288.0,Linha Essencial,Caderno Executivo - Linha Essencial
+CI-0016,Caderno Escolar Rosa,Escolar,A,Ativo,20.0,400.0,7.0,150.0,30.0,5.0,Linha Essencial,Caderno Escolar Rosa - Linha Essencial
+CI-0017,Planner Diário,Planner,A,Ativo,22.0,200.0,10.0,40.0,6.0,67.0,Linha Essencial,Planner Diário - Linha Essencial
+CI-0018,Refil Checklist,Refis,A,Ativo,12.0,500.0,13.0,50.0,6.0,84.0,Linha Essencial,Refil Checklist - Linha Essencial
+CI-0019,Disco M Azul,Acessórios,A,Ativo,12.0,300.0,16.0,181.0,18.0,101.0,Linha Essencial,Disco M Azul - Linha Essencial
+CI-0020,Capa Colorida A5,Acessórios,A,Ativo,13.0,300.0,19.0,354.0,30.0,118.0,Linha Essencial,Capa Colorida A5 - Linha Essencial
+CI-0021,Caderno A5 Preto,Clássico,B,Ativo,16.0,300.0,7.0,1485.0,110.0,135.0,Linha Essencial,Caderno A5 Preto - Linha Essencial
+CI-0022,Caderno Executivo Preto,Executivo,B,Ativo,25.0,200.0,10.0,1672.0,110.0,152.0,Linha Essencial,Caderno Executivo Preto - Linha Essencial
+CI-0023,Refil A4 Pautado,Refis,B,Ativo,11.0,500.0,13.0,101.0,6.0,169.0,Linha Essencial,Refil A4 Pautado - Linha Essencial
+CI-0024,Divisória A5 5un,Acessórios,B,Ativo,14.0,300.0,16.0,558.0,30.0,186.0,Linha Essencial,Divisória A5 5un - Linha Essencial
+CI-0025,Caderno Escolar Azul,Escolar,B,Ativo,20.0,400.0,19.0,365.0,18.0,203.0,Linha Essencial,Caderno Escolar Azul - Linha Essencial
+CI-0026,Caderno A5 Azul,Clássico,B,Ativo,15.0,300.0,7.0,1210.0,55.0,22.0,Linha Contemporânea,Caderno A5 Azul - Linha Contemporânea
+CI-0027,Caderno A5 Rosa,Clássico,B,Ativo,16.0,300.0,10.0,711.0,30.0,237.0,Linha Contemporânea,Caderno A5 Rosa - Linha Contemporânea
+CI-0028,Caderno Grande Preto,Clássico,B,Ativo,14.0,300.0,13.0,762.0,30.0,254.0,Linha Contemporânea,Caderno Grande Preto - Linha Contemporânea
+CI-0029,Planner Semanal,Planner,B,Ativo,22.0,200.0,16.0,1490.0,55.0,271.0,Linha Contemporânea,Planner Semanal - Linha Contemporânea
+CI-0030,Refil A5 Pautado,Refis,B,Ativo,12.0,500.0,19.0,864.0,30.0,288.0,Linha Contemporânea,Refil A5 Pautado - Linha Contemporânea
+CI-0031,Refil A5 Pontilhado,Refis,B,Ativo,10.0,500.0,7.0,50.0,10.0,5.0,Linha Contemporânea,Refil A5 Pontilhado - Linha Contemporânea
+CI-0032,Disco M Rosa,Acessórios,B,Ativo,13.0,300.0,10.0,737.0,110.0,67.0,Linha Contemporânea,Disco M Rosa - Linha Contemporânea
+CI-0033,Disco G Preto,Acessórios,B,Ativo,14.0,300.0,13.0,50.0,6.0,84.0,Linha Contemporânea,Disco G Preto - Linha Contemporânea
+CI-0034,Capa Transparente A5,Acessórios,B,Ativo,12.0,300.0,16.0,181.0,18.0,101.0,Linha Contemporânea,Capa Transparente A5 - Linha Contemporânea
+CI-0035,Estojo Inteligente,Acessórios,B,Ativo,13.0,300.0,19.0,649.0,55.0,118.0,Linha Contemporânea,Estojo Inteligente - Linha Contemporânea
+CI-0036,Caderno A5 Verde,Clássico,B,Ativo,16.0,300.0,7.0,742.0,55.0,135.0,Linha Contemporânea,Caderno A5 Verde - Linha Contemporânea
+CI-0037,Caderno Grande Azul,Clássico,B,Ativo,14.0,300.0,10.0,152.0,10.0,152.0,Linha Contemporânea,Caderno Grande Azul - Linha Contemporânea
+CI-0038,Refil Planner,Refis,B,Ativo,11.0,500.0,13.0,1858.0,110.0,169.0,Linha Contemporânea,Refil Planner - Linha Contemporânea
+CI-0039,Caderno Escolar,Escolar,C,Ativo,22.0,400.0,16.0,1581.0,85.0,186.0,Linha Contemporânea,Caderno Escolar - Linha Contemporânea
+CI-0040,Caderno Executivo,Executivo,C,Ativo,25.0,200.0,19.0,2233.0,110.0,203.0,Linha Contemporânea,Caderno Executivo - Linha Contemporânea
+CI-0041,Caderno Escolar Rosa,Escolar,C,Ativo,21.0,400.0,7.0,132.0,6.0,22.0,Linha Contemporânea,Caderno Escolar Rosa - Linha Contemporânea
+CI-0042,Planner Diário,Planner,C,Ativo,23.0,200.0,10.0,711.0,30.0,237.0,Linha Contemporânea,Planner Diário - Linha Contemporânea
+CI-0043,Refil Checklist,Refis,C,Ativo,10.0,500.0,13.0,2159.0,85.0,254.0,Linha Contemporânea,Refil Checklist - Linha Contemporânea
+CI-0044,Disco M Azul,Acessórios,C,Ativo,13.0,300.0,16.0,2981.0,110.0,271.0,Linha Contemporânea,Disco M Azul - Linha Contemporânea
+CI-0045,Capa Colorida A5,Acessórios,C,Ativo,14.0,300.0,19.0,518.0,18.0,288.0,Linha Contemporânea,Capa Colorida A5 - Linha Contemporânea
+CI-0046,Caderno A5 Preto,Clássico,C,Ativo,14.0,300.0,7.0,90.0,18.0,5.0,Linha Contemporânea,Caderno A5 Preto - Linha Contemporânea
+CI-0047,Caderno Executivo Preto,Executivo,C,Descontinuando,26.0,200.0,10.0,67.0,10.0,67.0,Linha Contemporânea,Caderno Executivo Preto - Linha Contemporânea
+CI-0048,Refil A4 Pautado,Refis,C,Ativo,12.0,500.0,13.0,84.0,10.0,84.0,Linha Contemporânea,Refil A4 Pautado - Linha Contemporânea
+CI-0049,Divisória A5 5un,Acessórios,C,Ativo,12.0,300.0,16.0,60.0,6.0,101.0,Linha Contemporânea,Divisória A5 5un - Linha Contemporânea
+CI-0050,Caderno Escolar Azul,Escolar,C,Descontinuando,21.0,400.0,19.0,118.0,10.0,118.0,Linha Contemporânea,Caderno Escolar Azul - Linha Contemporânea

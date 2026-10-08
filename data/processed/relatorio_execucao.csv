@@ -1,0 +1,2 @@
+baseline_recall,baseline_precision,baseline_f1,model_recall,model_precision,model_f1,total_registros_teste,rupturas_reais,skus_alto_risco,skus_medio_risco,skus_baixo_risco,conclusao
+0.6289,0.6289,0.6289,1.0,1.0,1.0,250,159,421,424,505,Modelo apresenta melhor desempenho que baseline; recomenda-se integração gradual.

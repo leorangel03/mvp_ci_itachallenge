@@ -1,0 +1,153 @@
+caderno_inteligente_—_dados_fictícios_|_forecast_comercial,unnamed:_1,unnamed:_2,unnamed:_3
+,,,
+SKU,Mês,,Origem previsão
+CI-0001,Out/26,154.0,Consenso S&OP
+CI-0001,Nov/26,183.0,Consenso S&OP
+CI-0001,Dez/26,177.0,Comercial
+CI-0002,Out/26,207.0,Comercial
+CI-0002,Nov/26,245.0,Consenso S&OP
+CI-0002,Dez/26,237.0,Comercial
+CI-0003,Out/26,260.0,Comercial
+CI-0003,Nov/26,307.0,Estatístico
+CI-0003,Dez/26,297.0,Estatístico
+CI-0004,Out/26,312.0,Consenso S&OP
+CI-0004,Nov/26,554.0,Consenso S&OP
+CI-0004,Dez/26,536.0,Comercial
+CI-0005,Out/26,365.0,Consenso S&OP
+CI-0005,Nov/26,432.0,Consenso S&OP
+CI-0005,Dez/26,418.0,Comercial
+CI-0006,Out/26,417.0,Comercial
+CI-0006,Nov/26,494.0,Consenso S&OP
+CI-0006,Dez/26,478.0,Consenso S&OP
+CI-0007,Out/26,470.0,Consenso S&OP
+CI-0007,Nov/26,556.0,Estatístico
+CI-0007,Dez/26,538.0,Estatístico
+CI-0008,Out/26,522.0,Comercial
+CI-0008,Nov/26,619.0,Consenso S&OP
+CI-0008,Dez/26,598.0,Estatístico
+CI-0009,Out/26,575.0,Comercial
+CI-0009,Nov/26,681.0,Estatístico
+CI-0009,Dez/26,658.0,Estatístico
+CI-0010,Out/26,627.0,Comercial
+CI-0010,Nov/26,743.0,Estatístico
+CI-0010,Dez/26,719.0,Estatístico
+CI-0011,Out/26,680.0,Comercial
+CI-0011,Nov/26,805.0,Comercial
+CI-0011,Dez/26,779.0,Consenso S&OP
+CI-0012,Out/26,732.0,Consenso S&OP
+CI-0012,Nov/26,867.0,Consenso S&OP
+CI-0012,Dez/26,839.0,Consenso S&OP
+CI-0013,Out/26,785.0,Comercial
+CI-0013,Nov/26,930.0,Consenso S&OP
+CI-0013,Dez/26,899.0,Estatístico
+CI-0014,Out/26,837.0,Consenso S&OP
+CI-0014,Nov/26,992.0,Estatístico
+CI-0014,Dez/26,959.0,Comercial
+CI-0015,Out/26,890.0,Comercial
+CI-0015,Nov/26,1054.0,Estatístico
+CI-0015,Dez/26,1020.0,Comercial
+CI-0016,Out/26,154.0,Estatístico
+CI-0016,Nov/26,183.0,Consenso S&OP
+CI-0016,Dez/26,177.0,Consenso S&OP
+CI-0017,Out/26,207.0,Comercial
+CI-0017,Nov/26,368.0,Estatístico
+CI-0017,Dez/26,356.0,Comercial
+CI-0018,Out/26,260.0,Consenso S&OP
+CI-0018,Nov/26,307.0,Consenso S&OP
+CI-0018,Dez/26,297.0,Comercial
+CI-0019,Out/26,312.0,Estatístico
+CI-0019,Nov/26,370.0,Consenso S&OP
+CI-0019,Dez/26,358.0,Comercial
+CI-0020,Out/26,365.0,Consenso S&OP
+CI-0020,Nov/26,432.0,Comercial
+CI-0020,Dez/26,418.0,Estatístico
+CI-0021,Out/26,417.0,Comercial
+CI-0021,Nov/26,494.0,Comercial
+CI-0021,Dez/26,478.0,Comercial
+CI-0022,Out/26,470.0,Consenso S&OP
+CI-0022,Nov/26,556.0,Comercial
+CI-0022,Dez/26,538.0,Estatístico
+CI-0023,Out/26,522.0,Estatístico
+CI-0023,Nov/26,619.0,Comercial
+CI-0023,Dez/26,598.0,Estatístico
+CI-0024,Out/26,575.0,Comercial
+CI-0024,Nov/26,681.0,Consenso S&OP
+CI-0024,Dez/26,658.0,Consenso S&OP
+CI-0025,Out/26,627.0,Estatístico
+CI-0025,Nov/26,743.0,Comercial
+CI-0025,Dez/26,719.0,Estatístico
+CI-0026,Out/26,680.0,Estatístico
+CI-0026,Nov/26,805.0,Comercial
+CI-0026,Dez/26,779.0,Comercial
+CI-0027,Out/26,732.0,Consenso S&OP
+CI-0027,Nov/26,867.0,Consenso S&OP
+CI-0027,Dez/26,839.0,Estatístico
+CI-0028,Out/26,785.0,Estatístico
+CI-0028,Nov/26,930.0,Comercial
+CI-0028,Dez/26,899.0,Consenso S&OP
+CI-0029,Out/26,837.0,Comercial
+CI-0029,Nov/26,1488.0,Consenso S&OP
+CI-0029,Dez/26,1439.0,Estatístico
+CI-0030,Out/26,890.0,Comercial
+CI-0030,Nov/26,1054.0,Estatístico
+CI-0030,Dez/26,1020.0,Consenso S&OP
+CI-0031,Out/26,154.0,Comercial
+CI-0031,Nov/26,183.0,Estatístico
+CI-0031,Dez/26,177.0,Consenso S&OP
+CI-0032,Out/26,207.0,Estatístico
+CI-0032,Nov/26,245.0,Comercial
+CI-0032,Dez/26,237.0,Consenso S&OP
+CI-0033,Out/26,260.0,Consenso S&OP
+CI-0033,Nov/26,307.0,Estatístico
+CI-0033,Dez/26,297.0,Consenso S&OP
+CI-0034,Out/26,312.0,Comercial
+CI-0034,Nov/26,370.0,Consenso S&OP
+CI-0034,Dez/26,358.0,Estatístico
+CI-0035,Out/26,365.0,Estatístico
+CI-0035,Nov/26,432.0,Consenso S&OP
+CI-0035,Dez/26,418.0,Consenso S&OP
+CI-0036,Out/26,417.0,Consenso S&OP
+CI-0036,Nov/26,494.0,Estatístico
+CI-0036,Dez/26,478.0,Consenso S&OP
+CI-0037,Out/26,470.0,Estatístico
+CI-0037,Nov/26,556.0,Consenso S&OP
+CI-0037,Dez/26,538.0,Comercial
+CI-0038,Out/26,522.0,Comercial
+CI-0038,Nov/26,619.0,Estatístico
+CI-0038,Dez/26,598.0,Estatístico
+CI-0039,Out/26,575.0,Consenso S&OP
+CI-0039,Nov/26,681.0,Comercial
+CI-0039,Dez/26,658.0,Comercial
+CI-0040,Out/26,627.0,Estatístico
+CI-0040,Nov/26,743.0,Consenso S&OP
+CI-0040,Dez/26,719.0,Consenso S&OP
+CI-0041,Out/26,680.0,Consenso S&OP
+CI-0041,Nov/26,805.0,Estatístico
+CI-0041,Dez/26,779.0,Comercial
+CI-0042,Out/26,732.0,Estatístico
+CI-0042,Nov/26,1301.0,Consenso S&OP
+CI-0042,Dez/26,1258.0,Estatístico
+CI-0043,Out/26,785.0,Comercial
+CI-0043,Nov/26,930.0,Comercial
+CI-0043,Dez/26,899.0,Comercial
+CI-0044,Out/26,837.0,Comercial
+CI-0044,Nov/26,992.0,Consenso S&OP
+CI-0044,Dez/26,959.0,Consenso S&OP
+CI-0045,Out/26,890.0,Consenso S&OP
+CI-0045,Nov/26,1054.0,Estatístico
+CI-0045,Dez/26,1020.0,Comercial
+CI-0046,Out/26,154.0,Comercial
+CI-0046,Nov/26,183.0,Consenso S&OP
+CI-0046,Dez/26,177.0,Estatístico
+CI-0047,Out/26,207.0,Comercial
+CI-0047,Nov/26,245.0,Comercial
+CI-0047,Dez/26,237.0,Consenso S&OP
+CI-0048,Out/26,260.0,Consenso S&OP
+CI-0048,Nov/26,307.0,Consenso S&OP
+CI-0048,Dez/26,297.0,Comercial
+CI-0049,Out/26,312.0,Estatístico
+CI-0049,Nov/26,370.0,Consenso S&OP
+CI-0049,Dez/26,358.0,Comercial
+CI-0050,Out/26,365.0,Estatístico
+CI-0050,Nov/26,432.0,Estatístico
+CI-0050,Dez/26,418.0,Comercial

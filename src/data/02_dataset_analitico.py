@@ -22,13 +22,43 @@ class DatasetAnalitico:
         self.output_path = self.processed_dir / "dataset_analitico.csv"
 
     def _read_processed(self, name: str) -> pd.DataFrame:
-        path = self.processed_dir / f"{name}_processado.csv"
+        # Os processados perderam o cabeçalho real; o raw tem título + linha vazia antes dele.
+        path = self.root / "data" / "raw" / f"{name}.csv"
         if not path.exists():
             raise FileNotFoundError(f"Arquivo não encontrado: {path}")
-        return pd.read_csv(path)
+        raw = pd.read_csv(path, header=None, skip_blank_lines=False, dtype=str)
+        header_idx = raw.index[raw.isna().all(axis=1)][0] + 1
+        df = raw.iloc[header_idx + 1 :].copy()
+        cols = (
+            raw.iloc[header_idx]
+            .astype(str)
+            .str.replace("\n", "", regex=False)
+            .str.normalize("NFKD")
+            .str.encode("ascii", "ignore")
+            .str.decode("ascii")
+            .str.lower()
+            .str.replace(r"[^a-z0-9]+", "_", regex=True)
+            .str.strip("_")
+            .replace({"estoque_seguranca_dias": "estoque_segurança_dias"})
+        )
+        df.columns = cols
+        return df.dropna(how="all").reset_index(drop=True)
 
     def _safe_to_datetime(self, series: pd.Series) -> pd.Series:
-        return pd.to_datetime(series, errors="coerce")
+        meses = {"jan": 1, "fev": 2, "mar": 3, "abr": 4, "mai": 5, "jun": 6,
+                 "jul": 7, "ago": 8, "set": 9, "out": 10, "nov": 11, "dez": 12}
+        s = series.astype(str).str.strip()
+        # Formato "Out/26"
+        abrev = s.str.extract(r"^([A-Za-zçÇ]{3})/(\d{2})$")
+        mes_num = abrev[0].str.lower().map(meses)
+        parsed_abrev = pd.to_datetime(
+            "20" + abrev[1] + "-" + mes_num.astype("Int64").astype(str) + "-01", errors="coerce"
+        )
+        iso = s.str.match(r"^\d{4}-\d{2}")
+        parsed = pd.Series(pd.NaT, index=series.index, dtype="datetime64[ns]")
+        parsed[iso] = pd.to_datetime(s[iso], errors="coerce")
+        parsed[~iso] = pd.to_datetime(s[~iso], errors="coerce", dayfirst=True)
+        return parsed.fillna(parsed_abrev)
 
     def _choose_column(self, df: pd.DataFrame, candidates: list[str]) -> str | None:
         for candidate in candidates:
@@ -77,12 +107,13 @@ class DatasetAnalitico:
         pedidos = pedidos.copy()
         pedidos["sku"] = pedidos.get("sku", pedidos.get("SKU"))
         pedidos["mes"] = self._safe_to_datetime(pedidos.get("data_prometida", pedidos.get("Data prometida")))
+        pedidos["mes"] = pedidos["mes"].dt.to_period("M").dt.to_timestamp()
         pedidos["quantidade"] = pd.to_numeric(pedidos.get("quantidade", pedidos.get("Quantidade")), errors="coerce")
 
         ordens = ordens.copy()
         ordens["sku"] = ordens.get("sku", ordens.get("SKU"))
         ordens["quantidade"] = pd.to_numeric(ordens.get("quantidade", ordens.get("Quantidade")), errors="coerce")
-        ordens["inicio_previsto"] = self._safe_to_datetime(ordens.get("inicio_previsto", ordens.get("Início previsto")))
+        ordens["inicio_previsto"] = self._safe_to_datetime(ordens.get("inicio_previsto", ordens.get("Início previsto"))).dt.to_period("M").dt.to_timestamp()
         ordens["conclusao_prevista"] = self._safe_to_datetime(ordens.get("conclusao_prevista", ordens.get("Conclusão prevista")))
 
         lead = lead.copy()
@@ -92,7 +123,7 @@ class DatasetAnalitico:
 
         # Agregação mensal de demanda
         vendas_month = (
-            vendas.groupby(["sku", pd.Grouper(key="mes", freq="M")], as_index=False)
+            vendas.groupby(["sku", "mes"], as_index=False)
             .agg(
                 quantidade_faturada=("quantidade_faturada", "sum"),
                 valor_faturado_r=("valor_faturado_r", "sum"),
@@ -101,19 +132,19 @@ class DatasetAnalitico:
         vendas_month["mes"] = pd.to_datetime(vendas_month["mes"])
 
         forecast_month = (
-            forecast.groupby(["sku", pd.Grouper(key="mes", freq="M")], as_index=False)
+            forecast.groupby(["sku", "mes"], as_index=False)
             .agg(previsao_unidades=("previsao_unidades", "sum"))
         )
         forecast_month["mes"] = pd.to_datetime(forecast_month["mes"])
 
         pedidos_month = (
-            pedidos.groupby(["sku", pd.Grouper(key="mes", freq="M")], as_index=False)
+            pedidos.groupby(["sku", "mes"], as_index=False)
             .agg(quantidade_pedidos=("quantidade", "sum"))
         )
         pedidos_month["mes"] = pd.to_datetime(pedidos_month["mes"])
 
         ordens_month = (
-            ordens.groupby(["sku", pd.Grouper(key="inicio_previsto", freq="M")], as_index=False)
+            ordens.groupby(["sku", "inicio_previsto"], as_index=False)
             .agg(quantidade_ordens=("quantidade", "sum"))
         )
         ordens_month = ordens_month.rename(columns={"inicio_previsto": "mes"})
@@ -121,7 +152,7 @@ class DatasetAnalitico:
 
         # histórico de estoque mensal por sku
         historico_month = (
-            historico_estoque.groupby(["sku", pd.Grouper(key="mes", freq="M")], as_index=False)
+            historico_estoque.groupby(["sku", "mes"], as_index=False)
             .agg(estoque_fechamento=("estoque_fechamento", "mean"))
         )
         historico_month["mes"] = pd.to_datetime(historico_month["mes"])
@@ -133,7 +164,7 @@ class DatasetAnalitico:
         dataset = dataset.merge(historico_month, on=["sku", "mes"], how="left")
 
         # Dados de produto
-        produto_key = produtos[["sku", "familia", "lead_time_dias", "lote_minimo", "estoque_segurança_dias"]].copy()
+        produto_key = produtos[["sku", "familia", "lote_minimo", "estoque_segurança_dias"]].copy()
         dataset = dataset.merge(produto_key, on="sku", how="left")
 
         # Dados de estoque atual por SKU
@@ -141,7 +172,6 @@ class DatasetAnalitico:
             "sku",
             "estoque_atual",
             "cobertura_dias",
-            "estoque_segurança_dias",
             "demanda_media_mensal",
         ]].copy()
         dataset = dataset.merge(estoque_key, on="sku", how="left")

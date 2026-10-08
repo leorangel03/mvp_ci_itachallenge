@@ -19,3 +19,7 @@ coverage/
 # Dados locais e temporários
 /data/raw/*.tmp
 /data/processed/*.tmp
+
+# Streamlit agent skills
+.agents/skills/developing-with-streamlit
+.claude/skills/developing-with-streamlit

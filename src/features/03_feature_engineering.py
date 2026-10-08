@@ -22,7 +22,7 @@ class FeatureEngineering:
     def load_dataset(self) -> pd.DataFrame:
         if not self.input_path.exists():
             raise FileNotFoundError(f"Dataset analítico não encontrado: {self.input_path}")
-        return pd.read_csv(self.input_path)
+        return pd.read_csv(self.input_path, parse_dates=["mes"])
 
     def build(self) -> pd.DataFrame:
         df = self.load_dataset().copy()

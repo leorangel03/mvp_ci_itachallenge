@@ -1,0 +1,11 @@
+CADERNO INTELIGENTE — DADOS FICTÍCIOS | Indicadores_Atuais,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+Indicador,Valor fictício atual,Meta fictícia,Frequência,Responsável
+Rupturas mensais da amostra,14 SKUs,≤ 6 SKUs,Mensal,PCP/Comercial
+SKUs com cobertura >90 dias,18%,≤ 10%,Semanal,PCP
+Acurácia forecast (MAPE),31%,≤ 20%,Mensal,S&OP
+Aderência plano de produção,78%,≥ 90%,Semanal,PCP
+Estoque médio amostra,"R$ 1,8 mi fictícios",Reduzir 10% sem elevar ruptura,Mensal,Supply
+Pedidos atendidos no prazo,89%,≥ 96%,Semanal,Operações
+Tempo manual de análise PCP,22 h/semana,≤ 8 h/semana,Semanal,PCP
+KAs com sell-in/out disponível,5,Ampliar gradualmente,Mensal,Comercial

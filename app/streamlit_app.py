@@ -1,7 +1,15 @@
+import sys
+from importlib import import_module
+from pathlib import Path
+
 import streamlit as st
 import pandas as pd
 
-from src.models.07_priorizacao import PriorizacaoFinal
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
+
+# Módulo iniciado por dígito não é importável com `import`.
+PriorizacaoFinal = import_module("src.models.07_priorizacao").PriorizacaoFinal
 
 st.set_page_config(page_title="Caderno Inteligente", layout="wide")
 st.title("Painel de Risco Operacional — Caderno Inteligente")
@@ -9,7 +17,7 @@ st.title("Painel de Risco Operacional — Caderno Inteligente")
 @st.cache_data
 def load_data():
     try:
-        df = pd.read_csv("data/processed/priorizacao_final.csv")
+        df = pd.read_csv(ROOT / "data/processed/priorizacao_final.csv")
     except FileNotFoundError:
         obj = PriorizacaoFinal()
         df = obj.build()

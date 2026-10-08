@@ -1,11 +1,13 @@
 from __future__ import annotations
 
+from importlib import import_module
 from pathlib import Path
 
 import pandas as pd
 
-from src.models.04_baseline import BaselineRisco
-from src.models.05_modelo_ml import ModeloRuptura
+# Nomes de módulo iniciados por dígito não são importáveis com `import`.
+BaselineRisco = import_module("src.models.04_baseline").BaselineRisco
+ModeloRuptura = import_module("src.models.05_modelo_ml").ModeloRuptura
 
 
 class BacktestingRisco:

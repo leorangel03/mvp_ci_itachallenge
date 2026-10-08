@@ -1,0 +1,53 @@
+CADERNO INTELIGENTE — DADOS FICTÍCIOS | Tabela de preços,Unnamed: 1,Unnamed: 2,Unnamed: 3,Unnamed: 4
+,,,,
+SKU,Descrição completa,Família,Preço unitário (R$),Vigência fictícia
+CI-0001,Caderno A5 Azul - Linha Essencial,Clássico,79.9,2024-09-01 00:00:00
+CI-0002,Caderno A5 Rosa - Linha Essencial,Clássico,84.9,2024-09-01 00:00:00
+CI-0003,Caderno Grande Preto - Linha Essencial,Clássico,89.9,2024-09-01 00:00:00
+CI-0004,Planner Semanal - Linha Essencial,Planner,104.9,2024-09-01 00:00:00
+CI-0005,Refil A5 Pautado - Linha Essencial,Refis,39.9,2024-09-01 00:00:00
+CI-0006,Refil A5 Pontilhado - Linha Essencial,Refis,19.9,2024-09-01 00:00:00
+CI-0007,Disco M Rosa - Linha Essencial,Acessórios,19.9,2024-09-01 00:00:00
+CI-0008,Disco G Preto - Linha Essencial,Acessórios,24.9,2024-09-01 00:00:00
+CI-0009,Capa Transparente A5 - Linha Essencial,Acessórios,29.9,2024-09-01 00:00:00
+CI-0010,Estojo Inteligente - Linha Essencial,Acessórios,34.9,2024-09-01 00:00:00
+CI-0011,Caderno A5 Verde - Linha Essencial,Clássico,79.9,2024-09-01 00:00:00
+CI-0012,Caderno Grande Azul - Linha Essencial,Clássico,84.9,2024-09-01 00:00:00
+CI-0013,Refil Planner - Linha Essencial,Refis,29.9,2024-09-01 00:00:00
+CI-0014,Caderno Escolar - Linha Essencial,Escolar,84.9,2024-09-01 00:00:00
+CI-0015,Caderno Executivo - Linha Essencial,Executivo,129.9,2024-09-01 00:00:00
+CI-0016,Caderno Escolar Rosa - Linha Essencial,Escolar,69.9,2024-09-01 00:00:00
+CI-0017,Planner Diário - Linha Essencial,Planner,94.9,2024-09-01 00:00:00
+CI-0018,Refil Checklist - Linha Essencial,Refis,29.9,2024-09-01 00:00:00
+CI-0019,Disco M Azul - Linha Essencial,Acessórios,29.9,2024-09-01 00:00:00
+CI-0020,Capa Colorida A5 - Linha Essencial,Acessórios,34.9,2024-09-01 00:00:00
+CI-0021,Caderno A5 Preto - Linha Essencial,Clássico,79.9,2024-09-01 00:00:00
+CI-0022,Caderno Executivo Preto - Linha Essencial,Executivo,114.9,2024-09-01 00:00:00
+CI-0023,Refil A4 Pautado - Linha Essencial,Refis,29.9,2024-09-01 00:00:00
+CI-0024,Divisória A5 5un - Linha Essencial,Acessórios,29.9,2024-09-01 00:00:00
+CI-0025,Caderno Escolar Azul - Linha Essencial,Escolar,89.9,2024-09-01 00:00:00
+CI-0026,Caderno A5 Azul - Linha Contemporânea,Clássico,79.9,2024-09-01 00:00:00
+CI-0027,Caderno A5 Rosa - Linha Contemporânea,Clássico,84.9,2024-09-01 00:00:00
+CI-0028,Caderno Grande Preto - Linha Contemporânea,Clássico,89.9,2024-09-01 00:00:00
+CI-0029,Planner Semanal - Linha Contemporânea,Planner,104.9,2024-09-01 00:00:00
+CI-0030,Refil A5 Pautado - Linha Contemporânea,Refis,39.9,2024-09-01 00:00:00
+CI-0031,Refil A5 Pontilhado - Linha Contemporânea,Refis,19.9,2024-09-01 00:00:00
+CI-0032,Disco M Rosa - Linha Contemporânea,Acessórios,19.9,2024-09-01 00:00:00
+CI-0033,Disco G Preto - Linha Contemporânea,Acessórios,24.9,2024-09-01 00:00:00
+CI-0034,Capa Transparente A5 - Linha Contemporânea,Acessórios,29.9,2024-09-01 00:00:00
+CI-0035,Estojo Inteligente - Linha Contemporânea,Acessórios,34.9,2024-09-01 00:00:00
+CI-0036,Caderno A5 Verde - Linha Contemporânea,Clássico,79.9,2024-09-01 00:00:00
+CI-0037,Caderno Grande Azul - Linha Contemporânea,Clássico,84.9,2024-09-01 00:00:00
+CI-0038,Refil Planner - Linha Contemporânea,Refis,29.9,2024-09-01 00:00:00
+CI-0039,Caderno Escolar - Linha Contemporânea,Escolar,84.9,2024-09-01 00:00:00
+CI-0040,Caderno Executivo - Linha Contemporânea,Executivo,129.9,2024-09-01 00:00:00
+CI-0041,Caderno Escolar Rosa - Linha Contemporânea,Escolar,69.9,2024-09-01 00:00:00
+CI-0042,Planner Diário - Linha Contemporânea,Planner,94.9,2024-09-01 00:00:00
+CI-0043,Refil Checklist - Linha Contemporânea,Refis,29.9,2024-09-01 00:00:00
+CI-0044,Disco M Azul - Linha Contemporânea,Acessórios,29.9,2024-09-01 00:00:00
+CI-0045,Capa Colorida A5 - Linha Contemporânea,Acessórios,34.9,2024-09-01 00:00:00
+CI-0046,Caderno A5 Preto - Linha Contemporânea,Clássico,79.9,2024-09-01 00:00:00
+CI-0047,Caderno Executivo Preto - Linha Contemporânea,Executivo,114.9,2024-09-01 00:00:00
+CI-0048,Refil A4 Pautado - Linha Contemporânea,Refis,29.9,2024-09-01 00:00:00
+CI-0049,Divisória A5 5un - Linha Contemporânea,Acessórios,29.9,2024-09-01 00:00:00
+CI-0050,Caderno Escolar Azul - Linha Contemporânea,Escolar,89.9,2024-09-01 00:00:00
