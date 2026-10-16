@@ -1,13 +1,8 @@
-# Dependências do projeto
-
-pandas>=2.0
+# Dependências do Cockpit de Decisão (Streamlit Community Cloud e local)
+pandas>=2.2,<3
 numpy>=1.26
+streamlit>=1.50
 scikit-learn>=1.4
+joblib>=1.3
 matplotlib>=3.8
-seaborn>=0.13
-jupyter>=1.0
-ipykernel>=6.0
-openpyxl>=3.1
 pytest>=8.0
-python-dotenv>=1.0
-streamlit>=1.34

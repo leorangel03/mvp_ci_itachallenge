@@ -1,13 +1,13 @@
 [theme]
 base = "light"
-primaryColor = "#6B3FA0"
+primaryColor = "#74008D"
 backgroundColor = "#FFFFFF"
 secondaryBackgroundColor = "#F5F0FA"
-textColor = "#241B2F"
+textColor = "#31003E"
 borderColor = "#DED3E8"
 baseRadius = "medium"
 showSidebarBorder = true
-violetColor = "#6B3FA0"
+violetColor = "#74008D"
 violetBackgroundColor = "#F0E7F7"
 violetTextColor = "#4F2878"
 redColor = "#B42318"
@@ -17,7 +17,7 @@ greenColor = "#16794B"
 blueColor = "#315DA8"
 grayColor = "#625A69"
 chartCategoricalColors = [
-  "#6B3FA0",
+  "#74008D",
   "#9A76C2",
   "#B42318",
   "#A15C00",
